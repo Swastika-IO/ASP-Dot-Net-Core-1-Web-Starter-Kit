@@ -1,0 +1,10 @@
+D:\_Workspace\SW\Github\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\bin\Debug\netcoreapp1.1\Swastika.Web.Start.deps.json
+D:\_Workspace\SW\Github\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\bin\Debug\netcoreapp1.1\Swastika.Web.Start.runtimeconfig.json
+D:\_Workspace\SW\Github\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\bin\Debug\netcoreapp1.1\Swastika.Web.Start.runtimeconfig.dev.json
+D:\_Workspace\SW\Github\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\bin\Debug\netcoreapp1.1\Swastika.Web.Start.dll
+D:\_Workspace\SW\Github\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\bin\Debug\netcoreapp1.1\Swastika.Web.Start.pdb
+D:\_Workspace\SW\Github\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\obj\Debug\netcoreapp1.1\Swastika.Web.Start.csprojResolveAssemblyReference.cache
+D:\_Workspace\SW\Github\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+D:\_Workspace\SW\Github\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\obj\Debug\netcoreapp1.1\Swastika.Web.Start.AssemblyInfo.cs
+D:\_Workspace\SW\Github\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\obj\Debug\netcoreapp1.1\Swastika.Web.Start.dll
+D:\_Workspace\SW\Github\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\obj\Debug\netcoreapp1.1\Swastika.Web.Start.pdb
