@@ -8,3 +8,13 @@ D:\_Workspace\SW\Github\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Star
 D:\_Workspace\SW\Github\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\obj\Debug\netcoreapp1.1\Swastika.Web.Start.AssemblyInfo.cs
 D:\_Workspace\SW\Github\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\obj\Debug\netcoreapp1.1\Swastika.Web.Start.dll
 D:\_Workspace\SW\Github\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\obj\Debug\netcoreapp1.1\Swastika.Web.Start.pdb
+D:\Workspace\GitHub\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\bin\Debug\netcoreapp1.1\Swastika.Web.Start.deps.json
+D:\Workspace\GitHub\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\bin\Debug\netcoreapp1.1\Swastika.Web.Start.runtimeconfig.json
+D:\Workspace\GitHub\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\bin\Debug\netcoreapp1.1\Swastika.Web.Start.runtimeconfig.dev.json
+D:\Workspace\GitHub\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\bin\Debug\netcoreapp1.1\Swastika.Web.Start.dll
+D:\Workspace\GitHub\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\bin\Debug\netcoreapp1.1\Swastika.Web.Start.pdb
+D:\Workspace\GitHub\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\obj\Debug\netcoreapp1.1\Swastika.Web.Start.csprojResolveAssemblyReference.cache
+D:\Workspace\GitHub\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\obj\Debug\netcoreapp1.1\UserSecretsAssemblyInfo.cs
+D:\Workspace\GitHub\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\obj\Debug\netcoreapp1.1\Swastika.Web.Start.AssemblyInfo.cs
+D:\Workspace\GitHub\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\obj\Debug\netcoreapp1.1\Swastika.Web.Start.dll
+D:\Workspace\GitHub\ASP-Dot-Net-Core-1-Web-Starter-Kit\src\Swastika.Web.Start\Swastika.Web.Start\obj\Debug\netcoreapp1.1\Swastika.Web.Start.pdb

@@ -1,0 +1,7 @@
+﻿
+.skin-black .main-header > .logo {
+    background-color: #222d32 !important;
+    color: #f4f4f4 !important;
+    border-bottom: 0 solid transparent;
+    border-right: 1px solid #222d32 !important;
+}
