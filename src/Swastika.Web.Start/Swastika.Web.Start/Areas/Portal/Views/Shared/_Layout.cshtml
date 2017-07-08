@@ -98,10 +98,7 @@ desired effect
                     @ViewData["Title"]
                     <small>@ViewData["Description"]</small>
                 </h1>
-                <ol class="breadcrumb">
-                    <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
-                    <li class="active">Here</li>
-                </ol>
+                @await Component.InvokeAsync(typeof(Swastika.Web.Start.Areas.Portal.ViewComponents.Breadcrumbs))
             </section>
 
             <!-- Main content -->
@@ -129,10 +126,22 @@ desired effect
         <!-- REQUIRED JS SCRIPTS -->
         <!-- jQuery 3 -->
         <script src="~/lib/admin-lte-2.4.0-rc/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/admin-lte-2.4.0-rc/bower_components/jquery-ui/jquery-ui.min.js"></script>
         <!-- Bootstrap 3.3.7 -->
         <script src="~/lib/admin-lte-2.4.0-rc/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <script src="~/lib/admin-lte-2.4.0-rc/bower_components/moment/min/moment.min.js"></script>
+        <script src="~/lib/admin-lte-2.4.0-rc/bower_components/bootstrap-daterangepicker/daterangepicker.js"></script>
+        <script src="~/lib/admin-lte-2.4.0-rc/bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+        <script src="~/lib/admin-lte-2.4.0-rc/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+        <script src="~/lib/admin-lte-2.4.0-rc/bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+
         <!-- AdminLTE App -->
         <script src="~/lib/admin-lte-2.4.0-rc/dist/js/adminlte.min.js"></script>
+
+        <script src="~/lib/admin-lte-2.4.0-rc/dist/js/pages/dashboard.js"></script>
+        <script src="~/lib/admin-lte-2.4.0-rc/dist/js/demo.js"></script>
+
 
         <!-- Optionally, you can add Slimscroll and FastClick plugins.
          Both of these plugins are recommended to enhance the

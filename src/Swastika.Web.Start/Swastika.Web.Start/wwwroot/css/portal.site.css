@@ -5,3 +5,6 @@
     border-bottom: 0 solid transparent;
     border-right: 1px solid #222d32 !important;
 }
+.content-wrapper {
+    background-color: #dcdcdc !important;
+}

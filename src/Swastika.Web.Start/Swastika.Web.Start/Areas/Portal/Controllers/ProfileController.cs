@@ -11,9 +11,9 @@ using Swastika.Web.Start.Models;
 using Swastika.Web.Start.Models.ManageViewModels;
 using Swastika.Web.Start.Services;
 
-namespace Swastika.Web.Start.Areas.User.Controllers
+namespace Swastika.Web.Start.Areas.Portal.Controllers
 {
-    [Area("User")]
+    [Area("Portal")]
     [Authorize]
     public class ProfileController : Controller
     {
