@@ -32,12 +32,12 @@
 
             @if (SignInManager.IsSignedIn(User))
             {
-                <li class="active">
+                <li is-active-route asp-controller="Home" asp-action="Index">
                     <a asp-area="Portal" asp-controller="Home" asp-action="Index">
                         <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                     </a>
                 </li>
-                <li class="treeview">
+                <li class="treeview" is-active-menu asp-controllers="Menus,Themes">
                     <a href="#">
                         <i class="fa fa-paint-brush"></i>
                         <span>Apperance</span>
@@ -46,12 +46,12 @@
                         </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a asp-area="Portal" asp-controller="Menus" asp-action="Index"><i class="fa fa-navicon"></i> Menus</a></li>
-                        <li><a asp-area="Portal" asp-controller="Themes" asp-action="Index"><i class="fa fa-pencil-square-o"></i> Themes</a></li>
+                        <li is-active-route asp-controller="Menus" asp-action="Index"><a asp-area="Portal" asp-controller="Menus" asp-action="Index"><i class="fa fa-navicon"></i> Menus</a></li>
+                        <li is-active-route asp-controller="Themes" asp-action="Index"><a asp-area="Portal" asp-controller="Themes" asp-action="Index"><i class="fa fa-pencil-square-o"></i> Themes</a></li>
                     </ul>
                 </li>
 
-                <li class="treeview">
+                <li class="treeview" is-active-menu asp-controllers="Contents">
                     <a href="#">
                         <i class="fa fa-file-text-o"></i> <span>Contents</span>
                         <span class="pull-right-container">
@@ -59,8 +59,8 @@
                         </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="#"><i class="fa fa-plus"></i> Add New</a></li>
-                        <li><a href="#"><i class="fa fa-list"></i> Articles</a></li>
+                        <li is-active-route asp-controller="Contents" asp-action="AddArticle"><a asp-area="Portal" asp-controller="Contents" asp-action="AddArticle"><i class="fa fa-plus"></i> Add New</a></li>
+                        <li is-active-route asp-controller="Contents" asp-action="Articles"><a asp-area="Portal" asp-controller="Contents" asp-action="Articles"><i class="fa fa-list"></i> Articles</a></li>
                         <li><a href="#"><i class="fa fa-folder-o"></i> Categories</a></li>
                         <li><a href="#"><i class="fa fa-tags"></i> Tags</a></li>
                     </ul>

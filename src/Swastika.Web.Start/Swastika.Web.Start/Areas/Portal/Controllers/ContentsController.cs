@@ -8,14 +8,26 @@ using Microsoft.AspNetCore.Authorization;
 namespace Swastika.Web.Start.Areas.Portal.Controllers
 {
     [Area("Portal")]
-    public class MenusController : Controller
+    public class ContentsController : Controller
     {
-        [Route("/portal/menus")]
+        [Route("/portal/contents")]
         public IActionResult Index()
         {
             return View();
         }
         
+        [Route("/portal/contents/articles")]
+        public IActionResult Articles()
+        {
+            return View();
+        }
+
+        [Route("/portal/contents/add-article")]
+        public IActionResult AddArticle()
+        {
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();
