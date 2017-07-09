@@ -28,6 +28,12 @@ namespace Swastika.Web.Start.Areas.Portal.Controllers
             return View();
         }
 
+        [Route("/portal/contents/categories")]
+        public IActionResult Categories()
+        {
+            return View();
+        }
+
         public IActionResult Error()
         {
             return View();

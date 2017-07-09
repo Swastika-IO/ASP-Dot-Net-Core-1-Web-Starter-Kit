@@ -18,3 +18,18 @@
 .sidebar-menu {
     margin: 10px;
 }
+.sidebar-collapse .sidebar-menu {
+    margin: 0px;
+}
+
+    .sidebar-collapse .sidebar-menu .mi {
+        font: normal normal normal 14px/1 micon;
+    }
+.sidebar-menu .mi {
+    width: 30px;
+    vertical-align: -30%;
+}
+.treeview-menu .mi {
+    width: 20px;
+    vertical-align: -15%;
+}

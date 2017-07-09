@@ -34,88 +34,88 @@
             {
                 <li is-active-route asp-controller="Home" asp-action="Index">
                     <a asp-area="Portal" asp-controller="Home" asp-action="Index">
-                        <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+                        <i class="mi mi-HomeGroup mi-lg"></i> <span>Dashboard</span>
                     </a>
                 </li>
-                <li class="treeview" is-active-menu asp-controllers="Menus,Themes">
+
+                <li class="treeview" is-active-menu asp-controllers="Contents">
                     <a href="#">
-                        <i class="fa fa-paint-brush"></i>
+                        <i class="mi mi-ReadingList mi-lg"></i> <span>Contents</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li is-active-route asp-controller="Contents" asp-action="AddArticle"><a asp-area="Portal" asp-controller="Contents" asp-action="AddArticle"><i class="mi mi-Add"></i> Add New</a></li>
+                        <li is-active-route asp-controller="Contents" asp-action="Articles"><a asp-area="Portal" asp-controller="Contents" asp-action="Articles"><i class="mi mi-Library"></i> Articles</a></li>
+                        <li is-active-route asp-controller="Contents" asp-action="Categories"><a asp-area="Portal" asp-controller="Contents" asp-action="Categories"><i class="mi mi-Folder"></i> Categories</a></li>
+                        <li is-active-route asp-controller="Contents" asp-action="Tags"><a asp-area="Portal" asp-controller="Contents" asp-action="Categories"><i class="mi mi-Tag"></i> Tags</a></li>
+                    </ul>
+                </li>
+                <li class="treeview" is-active-menu asp-controllers="Pages">
+                    <a href="#">
+                        <i class="mi mi-MapLayers mi-lg"></i> <span>Pages</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li is-active-route asp-controller="Pages" asp-action="AddPage"><a asp-area="Portal" asp-controller="Pages" asp-action="AddPage"><i class="mi mi-Add"></i> Add New</a></li>
+                        <li is-active-route asp-controller="Pages" asp-action="Index"><a asp-area="Portal" asp-controller="Pages" asp-action="Index"><i class="mi mi-FileExplorer"></i> All Pages</a></li>
+                    </ul>
+                </li>
+
+                <li class="treeview" is-active-menu asp-controllers="Media">
+                    <a href="#">
+                        <i class="mi mi-Media mi-lg"></i> <span>Media</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li is-active-route asp-controller="Media" asp-action="AddFile"><a asp-area="Portal" asp-controller="Media" asp-action="AddFile"><i class="mi mi-Add"></i> Add New</a></li>
+                        <li is-active-route asp-controller="Media" asp-action="Files"><a asp-area="Portal" asp-controller="Media" asp-action="Files"><i class="mi mi-FileExplorer"></i> All Files</a></li>
+                    </ul>
+                </li>
+
+                <li class="treeview" is-active-menu asp-controllers="Collaborators">
+                    <a href="#">
+                        <i class="mi mi-People mi-lg"></i> <span>Collaborators</span>
+                        <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li is-active-route asp-controller="Collaborators" asp-action="AddMember"><a asp-area="Portal" asp-controller="Collaborators" asp-action="AddMember"><i class="mi mi-AddFriend"></i> Add Member</a></li>
+                        <li is-active-route asp-controller="Collaborators" asp-action="Members"><a asp-area="Portal" asp-controller="Collaborators" asp-action="Members"><i class="mi mi-People"></i> All Members</a></li>
+                        <li is-active-route asp-controller="Collaborators" asp-action="Roles"><a asp-area="Portal" asp-controller="Collaborators" asp-action="Roles"><i class="mi mi-Work"></i> Roles</a></li>
+                        <li is-active-route asp-controller="Collaborators" asp-action="Permission"><a asp-area="Portal" asp-controller="Collaborators" asp-action="Permission"><i class="mi mi-ReportHacked"></i> Permission</a></li>
+                    </ul>
+                </li>
+                <li class="treeview" is-active-menu asp-controllers="Apperance">
+                    <a href="#">
+                        <i class="mi mi-LayoutLegacy mi-lg"></i>
                         <span>Apperance</span>
                         <span class="pull-right-container">
                             <i class="fa fa-angle-left pull-right"></i>
                         </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li is-active-route asp-controller="Menus" asp-action="Index"><a asp-area="Portal" asp-controller="Menus" asp-action="Index"><i class="fa fa-navicon"></i> Menus</a></li>
-                        <li is-active-route asp-controller="Themes" asp-action="Index"><a asp-area="Portal" asp-controller="Themes" asp-action="Index"><i class="fa fa-pencil-square-o"></i> Themes</a></li>
+                        <li is-active-route asp-controller="Apperance" asp-action="Menus"><a asp-area="Portal" asp-controller="Apperance" asp-action="Menus"><i class="mi mi-GlobalNavButton"></i> Menus</a></li>
+                        <li is-active-route asp-controller="Apperance" asp-action="Themes"><a asp-area="Portal" asp-controller="Apperance" asp-action="Themes"><i class="mi mi-Color"></i> Themes</a></li>
                     </ul>
                 </li>
 
-                <li class="treeview" is-active-menu asp-controllers="Contents">
+                <li class="treeview" is-active-menu asp-controllers="Setting">
                     <a href="#">
-                        <i class="fa fa-file-text-o"></i> <span>Contents</span>
+                        <i class="mi mi-Repair mi-lg"></i> <span>Setting</span>
                         <span class="pull-right-container">
                             <i class="fa fa-angle-left pull-right"></i>
                         </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li is-active-route asp-controller="Contents" asp-action="AddArticle"><a asp-area="Portal" asp-controller="Contents" asp-action="AddArticle"><i class="fa fa-plus"></i> Add New</a></li>
-                        <li is-active-route asp-controller="Contents" asp-action="Articles"><a asp-area="Portal" asp-controller="Contents" asp-action="Articles"><i class="fa fa-list"></i> Articles</a></li>
-                        <li><a href="#"><i class="fa fa-folder-o"></i> Categories</a></li>
-                        <li><a href="#"><i class="fa fa-tags"></i> Tags</a></li>
-                    </ul>
-                </li>
-                <li class="treeview">
-                    <a href="#">
-                        <i class="fa fa-newspaper-o"></i> <span>Pages</span>
-                        <span class="pull-right-container">
-                            <i class="fa fa-angle-left pull-right"></i>
-                        </span>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="#"><i class="fa fa-plus"></i> Add New</a></li>
-                        <li><a href="#"><i class="fa fa-files-o"></i> All Pages</a></li>
-                    </ul>
-                </li>
-
-                <li class="treeview">
-                    <a href="#">
-                        <i class="fa fa-file-image-o"></i> <span>Media</span>
-                        <span class="pull-right-container">
-                            <i class="fa fa-angle-left pull-right"></i>
-                        </span>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="#"><i class="fa fa-plus"></i> Add New</a></li>
-                        <li><a href="#"><i class="fa fa-files-o"></i> All Files</a></li>
-                    </ul>
-                </li>
-
-                <li class="treeview">
-                    <a href="#">
-                        <i class="fa fa-users"></i> <span>Collaborators</span>
-                        <span class="pull-right-container">
-                            <i class="fa fa-angle-left pull-right"></i>
-                        </span>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="#"><i class="fa fa-user-plus"></i> Add Member</a></li>
-                        <li><a href="#"><i class="fa fa-users"></i> All Members</a></li>
-                        <li><a href="#"><i class="fa fa-sitemap"></i> Roles</a></li>
-                        <li><a href="#"><i class="fa fa-shield"></i> Permission</a></li>
-                    </ul>
-                </li>
-
-                <li class="treeview">
-                    <a href="#">
-                        <i class="fa fa-gear"></i> <span>Setting</span>
-                        <span class="pull-right-container">
-                            <i class="fa fa-angle-left pull-right"></i>
-                        </span>
-                    </a>
-                    <ul class="treeview-menu">
-                        <li><a href="#"><i class="fa fa-cube"></i> Generals</a></li>
-                        <li><a href="#"><i class="fa fa-language"></i> Cultures</a></li>
+                        <li is-active-route asp-controller="Setting" asp-action="Generals"><a asp-area="Portal" asp-controller="Setting" asp-action="Generals"><i class="mi mi-DeveloperTools"></i> Generals</a></li>
+                        <li is-active-route asp-controller="Setting" asp-action="Cultures"><a asp-area="Portal" asp-controller="Setting" asp-action="Cultures"><i class="mi mi-Characters"></i> Cultures</a></li>
                     </ul>
                 </li>
                 
