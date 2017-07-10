@@ -101,7 +101,7 @@ $.keditor.DEFAULTS = {
     tabTooltipEnabled: true,
     extraTabs: null,
     defaultComponentType: 'blank',
-    snippetsUrl: 'snippets/default/snippets.html',
+    snippetsUrl: '/lib/keditor-1.1.4/src/snippets/default/snippets.html',
     snippetsListId: 'keditor-snippets-list',
     snippetsTooltipEnabled: true,
     snippetsTooltipPosition: 'left',
