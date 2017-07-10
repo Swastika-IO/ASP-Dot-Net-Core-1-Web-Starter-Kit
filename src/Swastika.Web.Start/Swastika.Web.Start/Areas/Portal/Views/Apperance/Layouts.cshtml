@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Blank Template";
+    ViewData["Description"] = "Manage site navigations and menus";
+}
+
+
+@section Styles {
+    <link rel="stylesheet" type="text/css" href="~/lib/keditor-1.1.4/dist/css/keditor-1.1.4.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/lib/keditor-1.1.4/dist/css/keditor-components-1.1.4.min.css" />
+    <style>
+
+        #content-area {
+            min-height: 100%;
+        }
+
+            #content-area .keditor-content-area {
+                min-height: 100%;
+            }
+
+        #content-area1,
+        #content-area2,
+        #content-area3 {
+            padding: 30px;
+            margin: 20px;
+            background: #fafafa;
+            min-height: 150px;
+            border: 3px dashed #ccc;
+        }
+    </style>
+
+}
+
+
+<section class="content">
+    <div id="content-area"></div>
+</section>
+
+@section Scripts {
+
+<script type="text/javascript">
+    var bsTooltip = $.fn.tooltip;
+    var bsButton = $.fn.button;
+</script>
+
+    <script type="text/javascript">
+        $.widget.bridge('uibutton', $.ui.button);
+        $.widget.bridge('uitooltip', $.ui.tooltip);
+        $.fn.tooltip = bsTooltip;
+        $.fn.button = bsButton;
+    </script>
+
+
+
+    <script src="https://rawgit.com/Kademi/keditor/master/examples/plugins/jquery.nicescroll-3.6.6/jquery.nicescroll.min.js"></script>
+    <script src="https://rawgit.com/Kademi/keditor/master/examples/plugins/ckeditor-4.5.6/ckeditor.js"></script>
+    <script src="https://rawgit.com/Kademi/keditor/master/examples/plugins/ckeditor-4.5.6/adapters/jquery.js"></script>
+    <script src="~/lib/keditor-1.1.4/dist/js/keditor-1.1.4.min.js"></script>
+    <script src="~/lib/keditor-1.1.4/dist/js/keditor-components-1.1.4.min.js"></script>
+
+    <script type="text/javascript">
+                $(function () {
+                    $('#content-area').keditor();
+                });
+    </script>
+}

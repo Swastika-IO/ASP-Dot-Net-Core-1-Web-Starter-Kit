@@ -16,6 +16,11 @@ namespace Swastika.Web.Start.Areas.Portal.Controllers
             return View();
         }
 
+        [Route("/portal/apperance/layouts")]
+        public IActionResult Layouts()
+        {
+            return View();
+        }
 
         [Route("/portal/apperance/menus")]
         public IActionResult Menus()

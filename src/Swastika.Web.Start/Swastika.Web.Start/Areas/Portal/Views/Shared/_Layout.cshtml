@@ -48,6 +48,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
+
+
+    @RenderSection("Styles", required: false)
+
     @Html.Raw(JavaScriptSnippet.FullScript)
 
 </head>
